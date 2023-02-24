@@ -1,4 +1,4 @@
 path = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
 
-'run wsl
-CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\Æô¶¯WSLÈİÆ÷.cmd yes","","runas",0
+'run wsl.
+CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\å¯åŠ¨WSLå®¹å™¨.cmd yes","","runas",0
