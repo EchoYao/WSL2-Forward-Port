@@ -1,4 +1,4 @@
 path = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
 
 'shutdown wsl and delete forward host port to wsl port
-CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\É¾³ı×ª·¢µ½WSLµÄ¶Ë¿Ú.cmd yes","","runas",0
+CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\åˆ é™¤è½¬å‘åˆ°WSLçš„ç«¯å£.cmd yes","","runas",0
