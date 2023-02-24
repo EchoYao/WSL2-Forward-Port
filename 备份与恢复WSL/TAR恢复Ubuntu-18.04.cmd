@@ -7,7 +7,7 @@
     Exit /b
 )
 set linuxName=Ubuntu-18.04
-echo 正在导入%linuxName%
+echo 姝ｅ湪瀵煎叆%linuxName%
 wsl --import %linuxName% E:\Linux\%linuxName% %cd%\%linuxName%.tar
-echo 导入完成
+echo 瀵煎叆瀹屾垚
 pause
