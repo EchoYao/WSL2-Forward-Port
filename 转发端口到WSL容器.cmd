@@ -35,5 +35,5 @@ for /f "tokens=1,* delims=;" %%i in ("%forwardPorts%") do (
 	if not "%forwardPorts%"=="" goto SplitAndForward
 )
 
-if "%slient%"=="yes" start ×ª·¢WSLÈİÆ÷¶Ë¿Úµ½Ö÷»ú.vbs & exit
+if "%slient%"=="yes" start è½¬å‘WSLå®¹å™¨ç«¯å£åˆ°ä¸»æœº.vbs & exit
 pause
