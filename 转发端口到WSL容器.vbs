@@ -1,4 +1,4 @@
 path = CreateObject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
 
 'forward host port to wsl port
-CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\杞彂绔彛鍒癢SL瀹瑰櫒.cmd yes","","runas",0
+CreateObject("Shell.Application").ShellExecute "cmd.exe","/c " & path & "\转发端口到WSL容器.cmd yes","","runas",0

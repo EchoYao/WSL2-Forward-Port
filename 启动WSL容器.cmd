@@ -8,5 +8,5 @@ set linuxScript=/etc/init.sh
 set linuxParam=start
 wsl -d %linuxName% -u %linuxUser% %linuxScript% %linuxParam%
 
-if "%slient%"=="yes" start 杞彂绔彛鍒癢SL瀹瑰櫒.vbs & exit
+if "%slient%"=="yes" start 转发端口到WSL容器.vbs & exit
 pause

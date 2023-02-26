@@ -35,5 +35,5 @@ for /f "tokens=1,* delims=;" %%i in ("%forwardPorts%") do (
 	if not "%forwardPorts%"=="" goto SplitAndForward
 )
 
-if "%slient%"=="yes" start 转发WSL容器端口到主机.vbs & exit
+if "%slient%"=="yes" exit
 pause
